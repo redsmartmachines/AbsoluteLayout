@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard1.0;netstandard2.0</TargetFrameworks>
     <PackageId>SmartMachines.AbsoluteLayout</PackageId>
     <Authors>SmartMachines</Authors>
     <Product></Product>
@@ -10,9 +10,14 @@
     <PackageProjectUrl>https://github.com/redsmartmachines/AbsoluteLayout/blob/master/LICENSE</PackageProjectUrl>
     <RepositoryUrl></RepositoryUrl>
     <PackageTags>layout, absolutelayout, xamarin, forms, xamarin.forms</PackageTags>
-    <Description>AbsoluteLayout implemented the way you expected. Works exactly same as native AbsoluteLayout except that (0.25, 0.25, 0.25, 0.25) means what it should mean.</Description>
+    <Description>AbsoluteLayout implemented the way you expected. Works exactly same as native AbsoluteLayout except that (0.25, 0.25, 0.5, 0.5) means what it should mean - a square box in the screen center half the screen in size.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1
++ Lowered Xamarin Forms dependency version
++ Shipping with NetStandard 1.0 and 2.0
+1.0.0
+First release</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
